@@ -5,24 +5,21 @@
 	<title>Sitio Web Curso Js</title>
 
 	<!-- Estilos css -->
-	<link rel="stylesheet" href="css/styles.css">	
-	<link id="theme" rel="stylesheet" href="css/green.css">
+	<link rel="stylesheet" href="../css/styles.css">	
+	<link id="theme" rel="stylesheet" href="../css/green.css">
 	
 
 	<!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
 
 	<!-- Jquery UI -->
 	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.css">
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui-structure.css">
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui-theme.css">
+	<link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui-structure.css">
+	<link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui-theme.css">
 
-
-	<!--Form validator jquery-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-
+	
 
 </head>
 <body>
@@ -43,7 +40,7 @@
 			<div class="clearfix"></div>
 			<nav  id="menu">
 				<ul>
-					<li><a href="index.html">INICIO</a></li>
+					<li><a href="../index.html">INICIO</a></li>
 					<li><a href="about.html">SOBRE MI</a></li>
 					<li><a href="reloj.html">RELOJ</a></li>
 					<li><a href="contact.html">CONTACTO</a></li>
@@ -55,40 +52,36 @@
         <!--Contenido-->
 		<section id="content">
 			<div id="box">
-				<!--Formulario de Contacto-->
-				<h2>Contacto</h2>
+				<!--Cargando acordeón de Jquery UI-->
+				<h2>Sobre mi</h2>
+				<div id="acordeon">
+					<h3>Quieness somos?</h3>
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
+						</p>
+					</div>
 
-				<form action="#" method="post" id="form-contact">
-					<label for="name">Nombre</label>
-					<input type="text" name="name" data-validation="alphanumeric">
+					<h3>Nuestros servicios</h3>
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
+						</p>
+					</div>
 
-					<label for="surname">Apellido</label>
-					<input type="text" name="surname" data-validation="alphanumeric">
-
-					<label for="name">e-mail</label>
-					<input type="email" name="e-mail" data-validation="email">
-
-					<label for="sex">Sexo</label>
-					<select name="sex" id="" data-validation="required">
-						<option value="man">Hombre</option>
-						<option value="womman">Mujer</option>
-					</select>
-
-					<label for="date">Fecha de nacimiento</label>
-					<input type="text" name="date" data-validation="birthdate" data-validation-format="dd-mm-yyyy">
-
-					<label for="years">Edad</label>
-					<input type="number" name="years" data-validation="number">
-
-					<input type="submit" value="enviar">
-
-				</form>
-				
+					<h3>Nuestros clientes</h3>
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
+						</p>
+					</div>
+					
+				</div>
 			</div>
 			<aside id="sidebar">
 				<div id="about">
 					<h4><span>¿Quien soy?</span></h4>
-					<img src="img/caracol.jpg" alt="caracol">
+					<img src="../img/caracol.jpg" alt="caracol">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis maiores quasi nisi eius reiciendis nemo ipsam non exercitationem adipisci aut ea beatae autem ad, id deserunt quo recusandae sunt? Aliquid.</p>
 				</div>
 

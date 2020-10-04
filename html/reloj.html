@@ -5,19 +5,17 @@
 	<title>Sitio Web Curso Js</title>
 
 	<!-- Estilos css -->
-	<link rel="stylesheet" href="css/styles.css">	
-	<link id="theme" rel="stylesheet" href="css/green.css">
+	<link rel="stylesheet" href="../css/styles.css">	
+	<link id="theme" rel="stylesheet" href="../css/green.css">
 	
 
 	<!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
 
-	<!-- Jquery UI -->
-	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.css">
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui-structure.css">
-	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui-theme.css">
+    <!--Moment JS-->
+    <script type="text/javascript" src="../js/moment.js"></script>
+    <script type="text/javascript" src="../js/moment-with-locales.js"></script>
 
 	
 
@@ -40,7 +38,7 @@
 			<div class="clearfix"></div>
 			<nav  id="menu">
 				<ul>
-					<li><a href="index.html">INICIO</a></li>
+					<li><a href="../index.html">INICIO</a></li>
 					<li><a href="about.html">SOBRE MI</a></li>
 					<li><a href="reloj.html">RELOJ</a></li>
 					<li><a href="contact.html">CONTACTO</a></li>
@@ -52,36 +50,13 @@
         <!--Contenido-->
 		<section id="content">
 			<div id="box">
-				<!--Cargando acordeón de Jquery UI-->
-				<h2>Sobre mi</h2>
-				<div id="acordeon">
-					<h3>Quieness somos?</h3>
-					<div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
-						</p>
-					</div>
-
-					<h3>Nuestros servicios</h3>
-					<div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
-						</p>
-					</div>
-
-					<h3>Nuestros clientes</h3>
-					<div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quia aliquam, amet, provident necessitatibus, aspernatur deleniti nesciunt, laudantium sed maiores cupiditate earum. Possimus placeat, sit aliquid facilis dolorem repellendus maxime.
-						</p>
-					</div>
-					
-				</div>
+				<!--Cargando reloj con moementJS-->
+				<div id="reloj"></div>
 			</div>
 			<aside id="sidebar">
 				<div id="about">
 					<h4><span>¿Quien soy?</span></h4>
-					<img src="img/caracol.jpg" alt="caracol">
+					<img src="../img/caracol.jpg" alt="caracol">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis maiores quasi nisi eius reiciendis nemo ipsam non exercitationem adipisci aut ea beatae autem ad, id deserunt quo recusandae sunt? Aliquid.</p>
 				</div>
 
